@@ -26,7 +26,7 @@ SECRET_KEY = "django-insecure-6@#jbhk_kt&&)a3@0ttwc7-@1!y!6=ea^x3d8mfyr__^pv(8^k
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 LOAD_BALANCER_URL = os.environ.get('LOAD_BALANCER_URL')
 # Application definition
